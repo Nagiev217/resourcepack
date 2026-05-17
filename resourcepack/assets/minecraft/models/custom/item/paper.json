@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1001 }, "model": "minecraft:custom/towers/archer_tower_lvl1" },
+    { "predicate": { "custom_model_data": 1002 }, "model": "minecraft:custom/towers/archer_tower_lvl2" },
+    { "predicate": { "custom_model_data": 1003 }, "model": "minecraft:custom/towers/archer_tower_lvl3" },
+    { "predicate": { "custom_model_data": 1101 }, "model": "minecraft:custom/towers/cannon_tower_lvl1" },
+    { "predicate": { "custom_model_data": 1102 }, "model": "minecraft:custom/towers/cannon_tower_lvl2" },
+    { "predicate": { "custom_model_data": 1103 }, "model": "minecraft:custom/towers/cannon_tower_lvl3" },
+    { "predicate": { "custom_model_data": 1201 }, "model": "minecraft:custom/towers/ice_tower_lvl1" },
+    { "predicate": { "custom_model_data": 1202 }, "model": "minecraft:custom/towers/ice_tower_lvl2" },
+    { "predicate": { "custom_model_data": 1203 }, "model": "minecraft:custom/towers/ice_tower_lvl3" },
+    { "predicate": { "custom_model_data": 2001 }, "model": "minecraft:custom/mobs/normal_mob" },
+    { "predicate": { "custom_model_data": 2002 }, "model": "minecraft:custom/mobs/fast_mob" },
+    { "predicate": { "custom_model_data": 2003 }, "model": "minecraft:custom/mobs/tank_mob" },
+    { "predicate": { "custom_model_data": 2004 }, "model": "minecraft:custom/mobs/boss_mob" }
+  ]
+}
